@@ -1,0 +1,6 @@
+image:
+  repository: yourdockerhubusername/ci-cd-demo
+  tag: latest
+service:
+  type: LoadBalancer
+  port: 80
