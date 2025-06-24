@@ -1,13 +1,13 @@
 pipeline {
     agent any
     environment {
-        IMAGE_NAME = 'yourdockerhubusername/ci-cd-demo'
+        IMAGE_NAME = 'sidsalakki14/ci-cd-demo'
     }
 
     stages {
         stage('Checkout') {
             steps {
-                git 'https://github.com/your-username/ci-cd-pipeline-demo.git'
+                git 'https://github.com/sid-dev-hub/PyFlaskProject.git'
             }
         }
 
